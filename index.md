@@ -3,7 +3,7 @@
 
 En esta página podras ver algunas de las tareas de la Escuela de Programación y Pensamiento Recursivo.
 
-**Bold** Puedes seguirme en https://gclau.github.io/ y ayudarme con las tareas.
+**Puedes seguirme en https://gclau.github.io/ y ayudarme con las tareas.**
 
 
 
