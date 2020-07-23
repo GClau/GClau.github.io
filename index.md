@@ -1,3 +1,13 @@
+
+## Bienvenido a la Pagina de Github de Claudia
+
+En esta página podras ver algunas de las tareas de la Escuela de Programación y Pensamiento Recursivo.
+
+**Bold** Puedes seguirme en https://gclau.github.io/ y ayudarme con las tareas.
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/GClau/GClau.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
