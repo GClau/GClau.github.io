@@ -1,9 +1,11 @@
 
-## Bienvenido a la Pagina de Github de Claudia
+# Bienvenido a la Pagina de Github de Claudia
 
 En esta página podras ver algunas de las tareas de la Escuela.
 
-**Puedes seguirme en https://gclau.github.io/ y ayudarme con las tareas.**
+**Puedes seguirme en [link] (https://gclau.github.io/) y ayudarme con las tareas.**
+
+## Supongo que debo empezar explicando quién soy yo. Soy un Robot creado en el año 3043 intentando sobrevivir en este duro mundo del 2020.
 
 ### Algunas cosas que me gustan:
 
