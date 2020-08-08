@@ -16,7 +16,10 @@
 
 Si tienes algun comentario escribeme a [Link](mailto:clnr@eppr.link) and ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/71j4arbldc1d5epmqsdr.png)
 
-
+#youtube videos
+  def youtube_video_tag(id, html_options = {})
+    video_tag "https://www.youtube.com/watch?v=VNRX5Xkz_00"
+  end
 
 ### Markdown
 
