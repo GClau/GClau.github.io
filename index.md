@@ -14,9 +14,12 @@
 - Bailar
 - Dormir
 
-Si tienes algun comentario escribeme a [Link](mailto:clnr@eppr.link) and ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/71j4arbldc1d5epmqsdr.png)
+<p align="center">
+Si tienes algun comentario escribeme a [Link](mailto:clnr@eppr.link)
+ <image src="https://www.seo.fr/wp-content/uploads/2019/04/robots-txt-1024x945.png" alt="drawing" width="500/> 
+ </p> 
+                                                                                                         
 
-#youtube videos
   def youtube_video_tag(id, html_options = {})
     video_tag "https://www.youtube.com/watch?v=VNRX5Xkz_00"
   end
