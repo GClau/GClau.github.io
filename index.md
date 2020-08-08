@@ -1,16 +1,17 @@
 
-# Bienvenido a la Pagina de Github de Claudia
-
-En esta página podras ver algunas de las tareas de la Escuela.
-
-**Puedes seguirme en** [link](https://gclau.github.io/) **y ayudarme con las tareas.**
+# Bienvenidos Humanos
 
 ## Supongo que debo empezar explicando quién soy yo. Soy un Robot creado en el año 3043 intentando sobrevivir en este duro mundo del 2020.
 
-### Algunas cosas que me gustan:
+### Seguramente tienen preguntas sobre mi y me gustaria establecer contacto contigo.
 
-- Patinar
-- Comer dulces
+**Puedes seguirme en** [link](https://gclau.github.io/) **y ayudarme a apender cosas sobre este mundo**
+
+
+### Algunas cosas que me gustria hacer 
+
+- Reir
+- Bailar
 - Dormir
 
 Si tienes algun comentario escribeme a [Link](mailto:clnr@eppr.link) and ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/71j4arbldc1d5epmqsdr.png)
