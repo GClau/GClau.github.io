@@ -5,24 +5,15 @@
 
 ### Seguramente tienen preguntas sobre mi y me gustaria establecer contacto contigo.
 
-**Puedes seguirme en** [link](https://gclau.github.io/) **y ayudarme a apender cosas sobre este mundo**
-
-
 ### Algunas cosas que me gustria hacer 
 
 - Reir
 - Bailar
 - Dormir
 
-<p align="center">
-Si tienes algun comentario escribeme a [Link](mailto:clnr@eppr.link)
- <image src="https://www.seo.fr/wp-content/uploads/2019/04/robots-txt-1024x945.png" alt="drawing" width="500/> 
- </p> 
-                                                                                                         
 
-  def youtube_video_tag(id, html_options = {})
-    video_tag "https://www.youtube.com/watch?v=VNRX5Xkz_00"
-  end
+
+
 
 ### Markdown
 
