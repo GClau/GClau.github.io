@@ -11,9 +11,9 @@
 - Bailar
 - Dormir
 
-**Otra de las cosas que me gusta hacer es tomar clases con EPPR - Escuela de Programación y Pensamiento Recusrivo.
+**Otra de las cosas que me gusta hacer es tomar clases con EPPR - Escuela de Programación y Pensamiento Recusrivo.**
 
-**Si te interesa puedes seguirlos aquí: [@EPPR](https://eppr.github.io/)
+**Si te interesa puedes seguirlos aquí:** [@EPPR](https://eppr.github.io/)
 
 En esta clase estamos aprendiendo Markdown y aqui dejamos un ejemplo de como lo puedes usar.
 
