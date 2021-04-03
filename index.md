@@ -3,7 +3,7 @@
 
 ## Supongo que debo empezar explicando quién soy yo. Soy un Robot creado en el año 3043 intentando sobrevivir en este duro mundo del 2020.
 
-### Seguramente tienen preguntas sobre mi y me gustaria establecer contacto contigo.
+### Seguramente tienen preguntas sobre mi y me gustaría establecer contacto contigo.
 
 ### Algunas cosas que me gustria hacer 
 
@@ -11,8 +11,11 @@
 - Bailar
 - Dormir
 
+**Otra de las cosas que me gusta hacer es tomar clases con EPPR - Escuela de Programación y Pensamiento Recusrivo.
 
+**Si te interesa puedes seguirlos aquí: [@EPPR](https://gist.github.com/EPPR/)
 
+En esta clase estamos aprendiendo Markdown y aqui dejamos un ejemplo de como lo puedes usar.
 
 
 ### Markdown
