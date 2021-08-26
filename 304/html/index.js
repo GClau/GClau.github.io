@@ -28,7 +28,7 @@ function readyFn( ) {
          }
         if ( algoritmo == "3"){
             // 3) Detectar si el texto es un número o no. // isNaN(x)
-            texto = ( isNaN(texo) ) ? "No es un número" : "Número Válido"
+            texto = ( isNaN(texto) ) ? "No es un número" : "Número Válido"
         }
         if ( algoritmo == "4"){
             // 4) Solo aceptar números. // .replace(/\D/g,'') // RegEx \D
