@@ -39,10 +39,22 @@ function readyFn( ) {
             var par = ( texto % 2 !== 1) ? "Par" : "Impar" ;
         }
         if ( algoritmo == "6"){
-        }
+            // 6) Dado un nombre completo, mostrar el apellido primero
+            var separa = texto.split(" ",2);
+            var resultado = texto[1] + " " + texto[0].charAt();
+            }
         if ( algoritmo == "7"){
+            // 7) Si el texto no incluye EPPR mostrar un mensaje de error //
+            palabra = /EPPR/i;
+            if (texto.match(palabra);
         }
         if ( algoritmo == "8"){
+            // 8) Número de 10 dígitos o no//
+            if (texto.length < 10){
+                alert ('Este no es un número de 10 dígitos')
+                return false;
+            }
+
         }
         myFunction(texto)
     });
