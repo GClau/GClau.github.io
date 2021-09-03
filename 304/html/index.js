@@ -41,6 +41,7 @@ function readyFn( ) {
         if ( algoritmo == "6"){
             // 6) Dado un nombre completo, mostrar el apellido primero
             var separa = texto.split(" ",2);
+            console.log(words[1]);
             var resultado = texto[1] + " " + texto[0].charAt();
             }
         if ( algoritmo == "7"){
