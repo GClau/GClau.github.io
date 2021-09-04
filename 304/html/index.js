@@ -46,8 +46,8 @@ function readyFn( ) {
             }
         if ( algoritmo == "7"){
             // 7) Si el texto no incluye EPPR mostrar un mensaje de error //
-            palabra = /EPPR/i;
-            if (texto.match(palabra);
+            // palabra = /EPPR/i;
+            // if ( texto.match( palabra ) ){}
         }
         if ( algoritmo == "8"){
             // 8) Número de 10 dígitos o no//
