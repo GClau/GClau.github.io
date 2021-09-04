@@ -42,8 +42,9 @@ function readyFn( ) {
             // 6) Dado un nombre completo, mostrar el apellido primero
             var separa = texto.split(" ",2);
             console.log(separa[1]);
-            var resultado = separa[1] + " " + separa[0]
-            texto = resultado
+            var resultado = separa[1] + " " + separa[0];
+            texto = resultado;
+            texto = "probando";
             }
         if ( algoritmo == "7"){
             // 7) Si el texto no incluye EPPR mostrar un mensaje de error //
