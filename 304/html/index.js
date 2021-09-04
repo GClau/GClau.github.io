@@ -43,6 +43,7 @@ function readyFn( ) {
             var separa = texto.split(" ",2);
             console.log(separa[1]);
             var resultado = separa[1] + " " + separa[0]
+            texto = resultado
             }
         if ( algoritmo == "7"){
             // 7) Si el texto no incluye EPPR mostrar un mensaje de error //
