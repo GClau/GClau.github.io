@@ -52,7 +52,7 @@ function readyFn( ) {
         if ( algoritmo == "7"){
             // 7) Si el texto no incluye EPPR mostrar un mensaje de error //
             var word = 'EPPR'
-            console.log(`La palabra "${word}" ${texto.includes(word) ? "Si" : "No"} error `);
+            console.log(`La palabra ${word} ${texto.includes(word)} ? "Si" : "No" error `);
         }
         if ( algoritmo == "8"){
             // 8) Número de 10 dígitos o no//
