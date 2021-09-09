@@ -42,30 +42,17 @@ function readyFn( ) {
             // 6) Dado un nombre completo, mostrar el apellido primero
             var separa = texto.split(" ",2);
             console.log(separa[1]);
-<<<<<<< HEAD
-
             var nombre = separa[0]
             var apellido = separa[1]
             var resultado = `Nombre: ${nombre} Apellido: ${apellido}`;
-
-
-            texto = resultado;
-
-=======
-            
-            var nombre = separa[0]
-            var apellido = separa[1]
-            var resultado = `Nombre: ${nombre} Apellido: ${apellido}`;
-            
-          
             texto = resultado;
             // texto = "probando";
->>>>>>> 393dd5fa61a8463aa273d653f79179d6bc5fa2c8
+
             }
         if ( algoritmo == "7"){
             // 7) Si el texto no incluye EPPR mostrar un mensaje de error //
-            // palabra = /EPPR/i;
-            // if ( texto.match( palabra ) ){}
+            var word = 'EPPR'
+            console.log(`La palabra "${word}" ${texto.includes(word) ? "Si" : "No"} error `);
         }
         if ( algoritmo == "8"){
             // 8) Número de 10 dígitos o no//
