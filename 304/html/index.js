@@ -52,8 +52,9 @@ function readyFn( ) {
         if ( algoritmo == "7"){
             // 7) Si el texto no incluye EPPR mostrar un mensaje de error //
             var word = 'EPPR'
-            //console.log(`La palabra ${word} ${texto.includes(word) ? "Si" : "Error" } `);
-            var resultado = `${texto.includes(word)}`? "Si" : "Error";
+            // console.log(`La palabra ${word} ${texto.includes(word) ? "Si" : "Error" } `);
+            // var resultado = `${texto.includes(word)}`? "Si" : "Error";
+            var resultado = texto.includes(word) ? "Si" : "No";
             console.log(resultado);
         }
         if ( algoritmo == "8"){
