@@ -55,7 +55,8 @@ function readyFn( ) {
             // console.log(`La palabra ${word} ${texto.includes(word) ? "Si" : "Error" } `);
             // var resultado = `${texto.includes(word)}`? "Si" : "Error";
             var resultado = texto.includes(word) ? "Si" : "No";
-            console.log(resultado);
+            //console.log(resultado);
+            texto = resultado;
         }
         if ( algoritmo == "8"){
             // 8) Número de 10 dígitos o no//
