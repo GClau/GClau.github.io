@@ -71,7 +71,7 @@ function readyFn( ) {
             texto = resultado;
         }
 
-        }
+
         myFunction(texto)
     });
 
