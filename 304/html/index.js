@@ -60,10 +60,9 @@ function readyFn( ) {
         }
         if ( algoritmo == "8"){
             // 8) Número de 10 dígitos o no//
-            var resultado = texto.length();
+            var resultado = texto.length;
             texto = resultado;
-
-            }
+        }
 
         }
         myFunction(texto)
