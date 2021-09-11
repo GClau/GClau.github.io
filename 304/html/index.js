@@ -36,7 +36,8 @@ function readyFn( ) {
         }
         if ( algoritmo == "5"){
             // 5) Determinar si un número es par o impar. // Operador Resto (x % 2)
-            var par = ( texto % 2 !== 1) ? "Par" : "Impar" ;
+            var resultado = ( texto % 2 !== 1) ? "Par" : "Impar" ;
+            texto = resultado;
         }
         if ( algoritmo == "6"){
             // 6) Dado un nombre completo, mostrar el apellido primero
@@ -60,7 +61,13 @@ function readyFn( ) {
         }
         if ( algoritmo == "8"){
             // 8) Número de 10 dígitos o no//
-            var resultado = texto.length;
+            // El objetivo: dando una variable de texto definir si es un número de 10 digitos o no es de 10
+            // 1. Verificar si es un numero o un texto
+            // 2. Contar los numeros y verificar si son 10 digitos
+            // 3. Actualizar la variable de texto
+            var isValid = ( isNaN(texto) ) ? false : true ;
+            var isTen = (texto.length == 10) ? true : false ;
+            var resultado = (isValid == true && isTen == true) ? "Si es un telefono" : "Invalido" ;
             texto = resultado;
         }
 
