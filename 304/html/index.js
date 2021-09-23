@@ -45,7 +45,7 @@ function readyFn( ) {
             // console.log(separa[1]);
             var nombre = separa[0]
             var apellido = separa[1]
-            var resultado = ${apellido} , ${nombre};
+            var resultado = `${apellido} , ${nombre}`;
             texto = resultado;
             // texto = "probando";
 
