@@ -1,1 +1,80 @@
-.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tabla de Filtros</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    
+    tr:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h2>Tabla de Filtros - Tipos de Dietas</h2>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Dieta</th>
+        <th>Seleccionar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dieta Vegana</td>
+        <td><input type="radio" name="dieta" value="vegana"></td>
+      </tr>
+      <tr>
+        <td>Dieta Keto</td>
+        <td><input type="radio" name="dieta" value="keto"></td>
+      </tr>
+      <tr>
+        <td>Dieta Mediterránea</td>
+        <td><input type="radio" name="dieta" value="mediterranea"></td>
+      </tr>
+      <tr>
+        <td>Dieta Paleolítica</td>
+        <td><input type="radio" name="dieta" value="paleolitica"></td>
+      </tr>
+      <tr>
+        <td>Dieta sin Gluten</td>
+        <td><input type="radio" name="dieta" value="sin-gluten"></td>
+      </tr>
+      <tr>
+        <td>Dieta Flexitariana</td>
+        <td><input type="radio" name="dieta" value="flexitariana"></td>
+      </tr>
+      <tr>
+        <td>Dieta Pescetariana</td>
+        <td><input type="radio" name="dieta" value="pescetariana"></td>
+      </tr>
+      <tr>
+        <td>Dieta Baja en Carbohidratos</td>
+        <td><input type="radio" name="dieta" value="baja-carbohidratos"></td>
+      </tr>
+      <tr>
+        <td>Dieta Alta en Proteínas</td>
+        <td><input type="radio" name="dieta" value="alta-proteinas"></td>
+      </tr>
+      <tr>
+        <td>Dieta Macrobiótica</td>
+        <td><input type="radio" name="dieta" value="macrobiotica"></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
