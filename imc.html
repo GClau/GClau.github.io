@@ -4,6 +4,41 @@
   <title>Calculadora de Salud y Estado Físico</title>
   <style>
     /* Estilos del formulario (igual que antes) */
+     .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    h2 {
+      text-align: center;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    
+    input[type="number"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+    }
+    
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .result {
+      text-align: center;
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
@@ -43,7 +78,17 @@
   </div>
   
   <script>
-    /* Función calcularIMC() (igual que antes) */
+     function calcularIMC() {
+      const peso = parseFloat(document.getElementById("peso").value);
+      const estatura = parseFloat(document.getElementById("estatura").value);
+      
+      if (isNaN(peso) || isNaN(estatura) || peso <= 0 || estatura <= 0) {
+        document.getElementById("resultado").innerHTML = "Por favor, ingresa valores válidos.";
+      } else {
+        const imc = peso / (estatura * estatura);
+        document.getElementById("resultado").innerHTML = `Tu IMC es: ${imc.toFixed(2)}`;
+      }
+    }
   </script>
 </body>
 </html>
