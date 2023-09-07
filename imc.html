@@ -96,9 +96,22 @@
   const apiUrl = 'https://api.openai.com/v1/chat/completions';
 
   const requestData = {
-    model: 'gpt-3.5-turbo', // Reemplaza con el modelo que deseas usar
-    prompt: message,
-    max_tokens: 50
+    model: "gpt-3.5-turbo",
+                messages:[
+                {
+                    "role": "system",
+                    "content": ""
+},
+                {
+                    "role": "user",
+                    "content": `${message}`
+                },
+],
+                temperature: 1,
+                max_tokens: 256,
+                top_p: 1,
+                frequency_penalty: 0,
+                presence_penalty: 0,
   };
 
   try {
